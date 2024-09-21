@@ -1,0 +1,8 @@
+{{ define "main" }}
+{{ .Content }}
+<hr>
+<b>Latest posts (times in est/edt):</b>
+{{ range first 10 ( where .Site.RegularPages "Type" "posts" ) }}
+{{ .Render "li" }}
+{{ end }}
+{{ end }}

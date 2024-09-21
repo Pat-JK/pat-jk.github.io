@@ -1,0 +1,35 @@
+baseURL = "https://pats.quest/"
+theme = "risotto"
+languageCode = "en-ca"
+timeZone = "America/Toronto"
+title = "pat's place"
+description = "my web zone :)"
+author = "Pat"
+copyright = "🫠 howdy :)"
+sectionPagesMenu = "main"
+enableEmoji = true
+enableRobotsTXT = true
+
+# config
+[params]
+noindex = false
+
+[params.theme]
+palette = "base16-horizon-dark"
+
+# bio
+[params.about]
+title = "i'm pat"
+description = "just a guy muckin about on the web"
+logo = "images/pfp.webp"
+
+[[params.socialLinks]]
+icon = "fa-brands fa-mastodon"
+title = "Mastodon"
+url = "https://social.vivaldi.net/@PatJK"
+
+[menu]
+[[menu.main]]
+name = "Home"
+identifier = "Home"
+url = "/"
