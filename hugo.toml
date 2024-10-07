@@ -21,7 +21,7 @@ palette = "base16-horizon-dark"
 [params.about]
 title = "i'm pat"
 description = "just a guy muckin about on the web"
-logo = "images/pfp.webp"
+logo = "<img src="images/pfp.webp"></img>"
 
 [[params.socialLinks]]
 icon = "fa-brands fa-mastodon"
