@@ -15,7 +15,7 @@ enableRobotsTXT = true
 noindex = false
 
 [params.theme]
-palette = "base16-gruvbox-dark"
+palette = "gruvbox-dark"
 
 # bio
 [params.about]
